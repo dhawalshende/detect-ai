@@ -1,7 +1,7 @@
 import type { Defect } from "./demo-data";
 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
-const GEMINI_MODEL = "gemini-2.5-flash";
+const GEMINI_MODEL = "gemini-1.5-flash";
 
 const GEMINI_PROMPT = `You are an industrial quality inspection AI. Analyze this product image for defects.
 Respond ONLY with a valid JSON object, no markdown, no explanation, just JSON:
