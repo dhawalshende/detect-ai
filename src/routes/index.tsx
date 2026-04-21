@@ -431,7 +431,7 @@ function Landing() {
       }}>
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-0">
           {[
-            { value: "500+", label: "Inspections" },
+            { value: "PDF", label: "Export Ready" },
             { value: ">90%", label: "Accuracy" },
             { value: "< 1 min", label: "Analysis" },
             { value: "3", label: "Severity Levels" },
@@ -586,11 +586,11 @@ function Landing() {
                 <span className="opacity-40">•</span>
                 <span>REAL-TIME DEFECT DETECTION</span>
                 <span className="opacity-40">•</span>
-                <span>99.2% VISION ACCURACY</span>
+                <span>>90% VISION ACCURACY</span>
                 <span className="opacity-40">•</span>
                 <span>INDUSTRIAL GRADE AI</span>
                 <span className="opacity-40">•</span>
-                <span>ZERO LATENCY PIPELINE</span>
+                <span>LOW LATENCY PIPELINE</span>
                 <span className="opacity-40">•</span>
                 <span>EDGE COMPUTING ENABLED</span>
                 <span className="opacity-40 font-bold">///</span>
