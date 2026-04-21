@@ -154,7 +154,7 @@ function InspectionShowcase() {
             }} />
 
             {/* Circuit dots */}
-            {[[60,40],[180,50],[100,130],[260,110],[200,170],[320,80],[40,160],[280,165]].map(([x,y], i) => (
+            {[[60, 40], [180, 50], [100, 130], [260, 110], [200, 170], [320, 80], [40, 160], [280, 165]].map(([x, y], i) => (
               <div key={i} style={{
                 position: "absolute", left: x, top: y,
                 width: 3, height: 3, borderRadius: "50%",
@@ -514,7 +514,7 @@ function Landing() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto glass-strong rounded-3xl p-10 md:p-16 text-center glow-soft relative overflow-hidden">
           <div className="absolute inset-0 grid-bg opacity-30 pointer-events-none" />
-          
+
           {/* Animated radial glow */}
           <div className="absolute inset-0 pointer-events-none" style={{
             background: "radial-gradient(circle at 50% 50%, rgba(0,212,255,0.1) 0%, transparent 60%)",
@@ -537,12 +537,12 @@ function Landing() {
               <Eye className="h-14 w-14 text-primary animate-pulse" />
               <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full scale-150 animate-pulse" />
             </div>
-            
+
             <h2 className="text-3xl md:text-5xl font-bold mb-4">Ready to elevate your QA?</h2>
             <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
               Join the inspectors who trust DETECTAI on the line.
             </p>
-            
+
             <div className="flex flex-col items-center gap-6">
               <Button asChild size="lg" className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 glow-primary px-10 h-14 text-lg">
                 <Link to="/auth">Get Started Free <ArrowRight className="ml-2 h-5 w-5" /></Link>
@@ -571,12 +571,12 @@ function Landing() {
         {/* Technical Marquee Strip */}
         <div className="relative py-4 bg-primary/5 border-b border-border/50 mb-10 group">
           <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-r from-background via-transparent to-background" />
-          <motion.div 
+          <motion.div
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ 
-              duration: 20, 
-              repeat: Infinity, 
-              ease: "linear" 
+            transition={{
+              duration: 20,
+              repeat: Infinity,
+              ease: "linear"
             }}
             className="flex whitespace-nowrap gap-12 text-[10px] font-mono tracking-widest text-primary/60 uppercase"
           >
@@ -586,7 +586,7 @@ function Landing() {
                 <span className="opacity-40">•</span>
                 <span>REAL-TIME DEFECT DETECTION</span>
                 <span className="opacity-40">•</span>
-                <span>>90% VISION ACCURACY</span>
+                <span>&gt;90% VISION ACCURACY</span>
                 <span className="opacity-40">•</span>
                 <span>INDUSTRIAL GRADE AI</span>
                 <span className="opacity-40">•</span>
@@ -606,7 +606,7 @@ function Landing() {
             </div>
             <span className="font-semibold text-lg tracking-tight">DETECT<span className="text-primary">AI</span></span>
           </div>
-          
+
           <div className="flex flex-col items-center md:items-end gap-1">
             <div className="text-[10px] text-muted-foreground font-mono uppercase tracking-tighter">
               Autonomous Inspection Node v2.5.0
