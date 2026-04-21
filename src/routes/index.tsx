@@ -283,7 +283,7 @@ function InspectionShowcase() {
 
       {/* Stat pills below card */}
       <div style={{ display: "flex", gap: 10, marginTop: 18, justifyContent: "center", flexWrap: "wrap" }}>
-        {[">90% Accuracy", "< 1 min", "Real AI"].map((s) => (
+        {["<90% Accuracy", "< 1 min", "Real AI"].map((s) => (
           <span key={s} style={{
             fontSize: 11, color: "#00D2D3", fontFamily: "monospace", fontWeight: 600,
             background: "rgba(0,210,211,0.08)",
@@ -526,7 +526,7 @@ function Landing() {
             Visual Results Explained
           </div>
           <div className="absolute top-6 right-8 text-[10px] font-mono text-primary/60 border border-primary/20 rounded-md px-2 py-1 bg-primary/5">
-            &gt; 90% Accuracy
+            &lt; 90% Accuracy
           </div>
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-[10px] font-mono text-primary/60 border border-primary/20 rounded-md px-2 py-1 bg-primary/5">
             &lt; 1 minute Analysis
@@ -586,7 +586,7 @@ function Landing() {
                 <span className="opacity-40">•</span>
                 <span>REAL-TIME DEFECT DETECTION</span>
                 <span className="opacity-40">•</span>
-                <span>&gt;90% VISION ACCURACY</span>
+                <span>&lt;90% VISION ACCURACY</span>
                 <span className="opacity-40">•</span>
                 <span>INDUSTRIAL GRADE AI</span>
                 <span className="opacity-40">•</span>
